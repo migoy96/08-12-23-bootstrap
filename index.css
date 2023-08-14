@@ -1,0 +1,78 @@
+html{
+    height: 100%;
+}
+
+body{
+    min-height: 100%;
+}
+
+.fthead{
+    text-align: center;
+    color: #1d3836;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: 'Frank Ruhl Libre', serif;
+}
+
+.card_pos{
+  
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+.logo{
+    margin-left: 30px;
+}
+
+.footer{
+    background-color: #6b5b95;
+    color: white;
+    position: relative;
+    bottom: 0px;
+    height: 100%;
+    margin-top: auto;
+    clear: both;
+}
+
+.table_footer{
+    margin: auto;
+    padding: 10px;
+}
+
+.td_footer{
+    padding-right: 250px;
+}
+
+.socmed{
+    padding: 5px;
+    list-style-type: none;
+}
+
+.socmed a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.socmed a:hover{
+    color: rgb(43, 39, 39);
+    transition: 0.5s;
+}
+
+.ul_footer{
+    margin-top: 20px;
+}
+
+.submit_button{
+    width: 150px;
+    height: 40px;
+    border-radius: 20px;
+    margin-left: 25px;
+    background-color: rgb(196, 180, 177);
+}
+
+.submit_button:hover{
+    background-color: rgb(67, 124, 119);
+    transition: 0.5s;
+}
