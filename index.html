@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Migo Travels</title>
+    <link rel="icon" type="image" href="images/migotravels.png">
     <link rel="stylesheet" href="index.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
@@ -18,7 +19,7 @@
 
 </head>
 
-<body class="container-fluid" style="background-color: #d5e1df;">
+<body style="background-color: #d5e1df;">
     <!-- navbar -->
     <div class="container-fluid">
         <nav class="navbar navbar-expand-lg mb-2"
@@ -31,7 +32,7 @@
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse ms-5" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <ul class="navbar-nav me-auto mb-2r">
                         <li class="nav-item">
                             <a class="nav-link fw-bold pe-5" aria-current="page" href="index.html">Home</a>
                         </li>
@@ -44,7 +45,7 @@
                         </li>
                     </ul>
                     <form class="d-flex" role="search">
-                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <input class="form-control me-2 float-end" type="search" placeholder="Search" aria-label="Search">
                         <button class="btn btn-outline-success" type="submit">Search</button>
                     </form>
                 </div>
@@ -54,10 +55,10 @@
     <!-- navbar end -->
 
         <!-- carousel -->
-    <div class="container">
+    
         <center>
         <div class="container">
-            <div id="carouselExampleAutoplaying" class="carousel slide w-75" data-bs-ride="carousel" style="border: 5px solid rgb(121, 104, 104);">
+            <div id="carouselExampleAutoplaying" class="carousel slide carousel-fade" data-bs-ride="carousel" style="border: 5px solid rgb(121, 104, 104);">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
                         <img src="images/Baler.jpg" class="d-block w-100" alt="..." style="width: 450px; height: 750px;">
@@ -89,7 +90,7 @@
 
         <!-- FEATURED ITEM -->
 
-        <div class="container-fluid" style="background-color: #878f99; border: 2px solid black; border-radius: 20px; box-shadow: 0px 0px 10px;">
+        <div class="container-fluid w-75" style="background-color: #878f99; border: 2px solid black; border-radius: 20px; box-shadow: 0px 0px 10px;">
             <h1 class="fthead">BUCKET LIST PHILIPPINES</h1>
         </div>
 
@@ -98,12 +99,12 @@
         <p class="container-fluid w-50 text-center fs-6 fst-italic">“Travel isn’t always pretty. It isn’t always comfortable. Sometimes it hurts, it even breaks your heart. But that’s okay. The journey changes you; it should change you. It leaves marks on your memory, on your consciousness, on your heart, and on your body. You take something with you. Hopefully, you leave something good behind.” – <b>Anthony Bourdain</b></p>
 
         <br>
-    </div>
+   
 
     <!-- Cards -->
-
-    <div class="container w-75">
-        <div class="card_pos">
+    <center>
+    <div class="container w-75 d-sm-block d-md-block d-lg-inline-flex">
+        
             <div class="card d-inline-block me-3" style="width: 18em; border: 2px solid black;">
                 <img src="images/Elnido.jpg" class="card-img-top" alt="..." style="height: 220px;">
                 <div class="card-body" style="height: 270px;">
@@ -147,9 +148,9 @@
                   </center>
                 </div>
             </div>
-        </div>
+        
     </div>
-
+    </center>
     <br>
 
     <!-- surfers guide -->
@@ -162,68 +163,54 @@
 
     <div class="container w-75">
         <div class="row mb-5">
-            <div class="col"><img src="images/LaUnion.jpg" style="border-radius: 100px; width: 100%;"></div>
-            <div class="col" style="margin-top: auto; margin-bottom: auto;">
-                <h4>San Juan, La Union</h4>
-                <p>There are a lot of surfing spots in the Philippines and one of them is in San Juan La Union. San Juan La Union is considered as the Surfing Capital of the Northern Philippines. It is one of the perfect getaways for surfing enthusiast and also the best place to relax and feel the good vibes.</p>
+            <div class="col-md-6 start-end"><img src="images/LaUnion.jpg" style="border-radius: 100px; width: 100%;"></div>
+            <div class="col-md-6 d-flex align-items-center">
+                
+                
+                <p><b style="font-size: 20pt;">San Juan, La Union</b><br> There are a lot of surfing spots in the Philippines and one of them is in San Juan La Union. San Juan La Union is considered as the Surfing Capital of the Northern Philippines. It is one of the perfect getaways for surfing enthusiast and also the best place to relax and feel the good vibes.</p>
             </div>
         </div>
 
         <div class="row mb-5">
-            <div class="col" style="margin-top: auto; margin-bottom: auto;">
-                <h4>Baler, Aurora</h4>
-                <p>Sabang Beach in Baler, once a sleepy fishing town, is considered as the oldest surfing community in the Philippines.
+            <div class="col-md-6 d-flex align-items-center">
+                
+                <p><b style=" font-size: 20pt">Baler, Aurora</b><br>Sabang Beach in Baler, once a sleepy fishing town, is considered as the oldest surfing community in the Philippines.
                     Its surfing fame started when a scene from the 1979 war film “Apocalypse Now,” was shot in Baler where American soldiers were seen surfing.
                     After the film was shot in the municipality, the crew left their surfing boards, with locals starting to take interest in the sport.</p>
             </div>
-            <div class="col"><img src="images/Baler.jpg" style="border-radius: 100px; width: 100%;"></div> 
+            <div class="col-md-6 start-end"><img src="images/Baler.jpg" style="border-radius: 100px; width: 100%;"></div> 
         </div>
 
         <div class="row mb-4">
-            <div class="col"><img src="images/siargao.jpg" style="width: 100%; border-radius: 100px;"></div>
-            <div class="col" style="margin-top: auto; margin-bottom: auto;">
-                <h4>Siargao Island</h4>
-                <p>Surfing started in Siargao Island sometime in June of 1980. Two young men Tony Arruza, an American Cuban descent, and Steve Jones, an Australian came to General Luna “in search of a perfect wave.” They surfed in that area now known as the “Jacking Horse”, near what is now “Cloud 9”. Word  pread around in the Surfing world that there is a secret place in Siargao Island which has good surf. Intermittently, surfers came and among them was a man who introduced himself as “Max Walker.” He surf the area in what is now “Cloud Nine”. He seemed to be a troubled man and this was proven when he died fasting right in the area “Max Walker” turned out to be a legendary man who founded several surfing camps of Southeast Asia, like Nias and G-Land in Indonesia, his name is John Michael Boyum.</p>
+            <div class="col-md-6 start-end"><img src="images/siargao.jpg" style="width: 100%; border-radius: 100px;"></div>
+            <div class="col-md-6 d-flex align-items-center">
+                
+                <p><b style="font-size: 20pt;">Siargao Island</b><br>Surfing started in Siargao Island sometime in June of 1980. Two young men Tony Arruza, an American Cuban descent, and Steve Jones, an Australian came to General Luna “in search of a perfect wave.” They surfed in that area now known as the “Jacking Horse”, near what is now “Cloud 9”. Word  pread around in the Surfing world that there is a secret place in Siargao Island which has good surf. Intermittently, surfers came and among them was a man who introduced himself as “Max Walker.” He surf the area in what is now “Cloud Nine”. He seemed to be a troubled man and this was proven when he died fasting right in the area “Max Walker” turned out to be a legendary man who founded several surfing camps of Southeast Asia, like Nias and G-Land in Indonesia, his name is John Michael Boyum.</p>
             </div>
         </div>
     </div>
 
     <!-- footer -->
     
-    <div class="footer">
-        <table class="table_footer">
-            <tr>
-                <td class="td_footer">
-                    <img src="images/migotravels.png" class="logo">
-                </td>
-                <td class="td_footer">
-                    <ul class="ul_footer">
-                        <li class="socmed"><a href="index.html">Home</a></li>
-                        <li class="socmed"><a href="about.html">About</a></li>
-                        <li class="socmed"><a href="contact.html">Contact</a></li>
-                    </ul>
-                </td>
-                <td class="td_footer">
-                    <ul class="ul_footer">
-                        <li class="socmed"><a href="https://www.facebook.com">Facebook</a></li>
-                        <li class="socmed"><a href="https://www.instagram.com">Instagram</a></li>
-                        <li class="socmed"><a href="https://www.tweeter.com">Tweeter</a></li>
-                    </ul>
-                </td>
-                <td class="td_footer">
-                    <ul class="ul_footer">
-                        <li>Reyes Compound</li>
-                        <li>#051 Sto. Tomas, Santa Maria, Bulacan</li>
-                        <li>0969-103-5468</li>
-                    </ul>
-                </td>
-            </tr>
+    <div class="container-fluid p-3" style="background-color: #6b5b95;">
+        <div class="row">
+            <div class="col-sm text-center">
+                <img src="images/migotravels.png" style="width: 150px; height: 60px; ;">
+            </div>
+            <div class="col-sm">
+                <ul>
+                    <li class="list_style"><a href="index.html" class="footer_link">Home</a></li>
+                    <li class="list_style"><a href="about.html" class="footer_link">About</a></li>
+                    <li class="list_style"><a href="contact.html" class="footer_link">Contact Us</a></li>
+                </ul>
+            </div>
 
-        </table>
-    </div>
-
-    <div class="container-fluid fst-italic text-center" style="background-color: rgb(31, 25, 25); color: antiquewhite; position: relative; bottom: 0px;">
-        <p>Copyright &copy 2023 - Miguel Carlos Blancaflor</p>
+            <div class="col-sm ms-4">
+                Sto. Tomas, Santa Maria, Bulacan <br>
+                0910-000-0000 <br>
+                inquire@migotravels.ph
+            </div>
+        </div>
     </div>
 
 </body>
