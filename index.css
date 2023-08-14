@@ -1,9 +1,5 @@
-html{
-    height: 100%;
-}
-
-body{
-    min-height: 100%;
+.navbar-nav a:hover{
+    color: antiquewhite;
 }
 
 .fthead{
@@ -21,47 +17,7 @@ body{
     padding: 10px;
 }
 
-.logo{
-    margin-left: 30px;
-}
 
-.footer{
-    background-color: #6b5b95;
-    color: white;
-    position: relative;
-    bottom: 0px;
-    height: 100%;
-    margin-top: auto;
-    clear: both;
-}
-
-.table_footer{
-    margin: auto;
-    padding: 10px;
-}
-
-.td_footer{
-    padding-right: 250px;
-}
-
-.socmed{
-    padding: 5px;
-    list-style-type: none;
-}
-
-.socmed a{
-    color: rgb(255, 255, 255);
-    text-decoration: none;
-}
-
-.socmed a:hover{
-    color: rgb(43, 39, 39);
-    transition: 0.5s;
-}
-
-.ul_footer{
-    margin-top: 20px;
-}
 
 .submit_button{
     width: 150px;
@@ -74,4 +30,19 @@ body{
 .submit_button:hover{
     background-color: rgb(67, 124, 119);
     transition: 0.5s;
+}
+
+.list_style{
+    list-style: none;
+}
+
+.footer_link{
+    color: black;
+    text-decoration: none;
+    
+}
+
+.footer_link:hover{
+    color: antiquewhite;
+
 }
