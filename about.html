@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About Us</title>
+    <link rel="icon" type="image" href="images/migotravels.png">
     <link rel="stylesheet" href="index.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
@@ -17,19 +18,20 @@
         rel="stylesheet">
 </head>
 
-<body class=container-fluid style="background-color: #d5e1df;">
+<body style="background-color: #d5e1df;">
+    <!-- navbar -->
     <div class="container-fluid">
-        <nav class="navbar navbar-expand-lg mb-2" style="background-color: #b2ad7f; box-shadow: 0px 0px 15px;">
+        <nav class="navbar navbar-expand-lg mb-2"
+            style="background-color: #b2ad7f; box-shadow: 0px 0px 15px;">
             <div class="container-fluid">
-                <a class="navbar-brand" href="#"><img src="images/migotravels.png"
-                        style="margin-left: 20px; width: 160px; height: 60px;"></a>
+                <a class="navbar-brand" href="index.html"><img src="images/migotravels.png" style="margin-left: 20px; width: 160px; height: 60px;"></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse ms-5" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <ul class="navbar-nav me-auto mb-2r">
                         <li class="nav-item">
                             <a class="nav-link fw-bold pe-5" aria-current="page" href="index.html">Home</a>
                         </li>
@@ -42,29 +44,27 @@
                         </li>
                     </ul>
                     <form class="d-flex" role="search">
-                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <input class="form-control me-2 float-end" type="search" placeholder="Search" aria-label="Search">
                         <button class="btn btn-outline-success" type="submit">Search</button>
                     </form>
                 </div>
             </div>
         </nav>
-    </div>
-
+    </div> 
     <!-- about us content -->
-
-        <div class="container w-75 m-5 float-end" style="border: 2.5px dashed black; overflow: hidden;">
-            <div class="row m-1">
-                <div class="col"><img src="images/about1.jpg" style="width: 100%; border-radius: 50px;"></div>
-                <div class="col" style="margin-top: auto; margin-bottom: auto;">
-                    &nbsp; &nbsp;<svg xmlns="http://www.w3.org/2000/svg" width="40" height="35" fill="currentColor"
+    <div class="container">
+        <div class="container w-75" style="border: 3.5px dashed black; margin-top: 50px; float: right;">
+            <div class="row">
+                <div class="col-md-6 mt-4 mb-4"><img src="images/about1.jpg" style="width: 100%; border-radius: 50px;"></div>
+                <div class="col-md-6 d-flex align-items-center">
+                    <p style="text-align: center;">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="100" height="35" fill="currentColor"
                         class="bi bi-megaphone" viewBox="0 0 16 16">
                         <path
                             d="M13 2.5a1.5 1.5 0 0 1 3 0v11a1.5 1.5 0 0 1-3 0v-.214c-2.162-1.241-4.49-1.843-6.912-2.083l.405 2.712A1 1 0 0 1 5.51 15.1h-.548a1 1 0 0 1-.916-.599l-1.85-3.49a68.14 68.14 0 0 0-.202-.003A2.014 2.014 0 0 1 0 9V7a2.02 2.02 0 0 1 1.992-2.013 74.663 74.663 0 0 0 2.483-.075c3.043-.154 6.148-.849 8.525-2.199V2.5zm1 0v11a.5.5 0 0 0 1 0v-11a.5.5 0 0 0-1 0zm-1 1.35c-2.344 1.205-5.209 1.842-8 2.033v4.233c.18.01.359.022.537.036 2.568.189 5.093.744 7.463 1.993V3.85zm-9 6.215v-4.13a95.09 95.09 0 0 1-1.992.052A1.02 1.02 0 0 0 1 7v2c0 .55.448 1.002 1.006 1.009A60.49 60.49 0 0 1 4 10.065zm-.657.975 1.609 3.037.01.024h.548l-.002-.014-.443-2.966a68.019 68.019 0 0 0-1.722-.082z" />
-                    </svg> &nbsp; &nbsp; <a href="https://www.fontspace.com/category/cute"><img
-                            src="https://see.fontimg.com/api/renderfont4/d9ymZ/eyJyIjoiZnMiLCJoIjo4MiwidyI6MTAwMCwiZnMiOjgyLCJmZ2MiOiIjMTYxMjEyIiwiYmdjIjoiIzM0MzEzMSIsInQiOjF9/QWJvdXQgVXM/bbsugarcoat-demo.png"
-                            alt="Cute fonts" style="width: 60%;"></a>
-                    <br><br>
-                    <p style="text-align: center;">"Welcome to <b>Migo Travels</b>, where the sun, sand, and sea come
+                    </svg><a href="https://www.fontspace.com/category/cute"><img
+                        src="https://see.fontimg.com/api/renderfont4/d9ymZ/eyJyIjoiZnMiLCJoIjo4MiwidyI6MTAwMCwiZnMiOjgyLCJmZ2MiOiIjMTYxMjEyIiwiYmdjIjoiIzM0MzEzMSIsInQiOjF9/QWJvdXQgVXM/bbsugarcoat-demo.png"
+                        alt="Cute fonts" style="width: 140px;"></a><br><br>"Welcome to <b>Migo Travels</b>, where the sun, sand, and sea come
                         together to create the ultimate tropical escape. We are a group of beach enthusiasts who have set
                         out to capture the essence of Philippine beach culture and share it with fellow wanderers like you."
                     </p>
@@ -74,19 +74,17 @@
 
         <!-- start of what we offer -->
 
-        <div class="container w-75 m-5 float-start" style="border: 2.5px dotted black;">
-            <div class="row m-1">
-                <div class="col"><img src="images/about2.jpg" style="width: 100%; border-radius: 50px;"></div>
-                <div class="col" style="margin-top: auto; margin-bottom: auto;">
-                    &nbsp; &nbsp;<svg xmlns="http://www.w3.org/2000/svg" width="40" height="35" fill="currentColor"
+        <div class="container w-75 " style="border: 3.5px dotted black; margin-top: 30px; float: left;">
+            <div class="row">
+                <div class="col-md-6 mt-4 mb-4"><img src="images/about2.jpg" style="width: 100%; border-radius: 50px;"></div>
+                <div class="col-md-6 d-flex align-items-center">
+                    <p style="text-align: center;"> <svg xmlns="http://www.w3.org/2000/svg" width="100" height="35" fill="currentColor"
                         class="bi bi-megaphone" viewBox="0 0 16 16">
                         <path
                             d="M13 2.5a1.5 1.5 0 0 1 3 0v11a1.5 1.5 0 0 1-3 0v-.214c-2.162-1.241-4.49-1.843-6.912-2.083l.405 2.712A1 1 0 0 1 5.51 15.1h-.548a1 1 0 0 1-.916-.599l-1.85-3.49a68.14 68.14 0 0 0-.202-.003A2.014 2.014 0 0 1 0 9V7a2.02 2.02 0 0 1 1.992-2.013 74.663 74.663 0 0 0 2.483-.075c3.043-.154 6.148-.849 8.525-2.199V2.5zm1 0v11a.5.5 0 0 0 1 0v-11a.5.5 0 0 0-1 0zm-1 1.35c-2.344 1.205-5.209 1.842-8 2.033v4.233c.18.01.359.022.537.036 2.568.189 5.093.744 7.463 1.993V3.85zm-9 6.215v-4.13a95.09 95.09 0 0 1-1.992.052A1.02 1.02 0 0 0 1 7v2c0 .55.448 1.002 1.006 1.009A60.49 60.49 0 0 1 4 10.065zm-.657.975 1.609 3.037.01.024h.548l-.002-.014-.443-2.966a68.019 68.019 0 0 0-1.722-.082z" />
-                    </svg> &nbsp; &nbsp; <a href="https://www.fontspace.com/category/cute"><img
+                    </svg><a href="https://www.fontspace.com/category/cute"><img
                             src="https://see.fontimg.com/api/renderfont4/d9ymZ/eyJyIjoiZnMiLCJoIjo4MiwidyI6MTAwMCwiZnMiOjgyLCJmZ2MiOiIjMTYxMjEyIiwiYmdjIjoiIzM0MzEzMSIsInQiOjF9/V2hhdCBXZSBPZmZlcg/bbsugarcoat-demo.png"
-                            alt="Cute fonts" style="width: 60%;"></a>
-                    <br><br>
-                    <p style="text-align: center;">"At <b>Migo Travels</b>, we understand that a beach vacation is more than
+                            alt="Cute fonts" style="width: 140px;"></a><br><br>"At <b>Migo Travels</b>, we understand that a beach vacation is more than
                         just a getaway; it's a rejuvenating experience for the soul. Through our curated articles, beach
                         guides, and firsthand accounts, we offer insights into the best beach destinations, water
                         activities, hidden coves, and local beach cultures that the Philippines has to offer."</p>
@@ -96,80 +94,61 @@
 
         <!-- start of join our travels -->
 
-        <div class="container-fluid w-75 m-5 float-end" style="border: 2.5px dashed black; overflow: auto;">
-            <div class="row m-1" style="height: 550px;">
-                <div class=col>
+        <div class="container w-75" style="border: 3.5px dashed black; margin-top: 30px; margin-bottom: 50px; float: right;">
+            <div class="row">
+                <div class="col-md-6 mt-4 mb-4">
                     <img src="images/about3.jpg" style="width: 100%; border-radius: 50px; margin-top: 50px;">
                 </div>
-                <div class="col" style="margin-top: auto; margin-bottom: auto;">
-                    &nbsp; &nbsp;<svg xmlns="http://www.w3.org/2000/svg" width="40" height="35" fill="currentColor"
+                <div class="col-md-6 d-flex align-items-center mt-5 mb-5">
+                    <p><svg xmlns="http://www.w3.org/2000/svg" width="100" height="35" fill="currentColor"
                         class="bi bi-megaphone" viewBox="0 0 16 16">
                         <path
                             d="M13 2.5a1.5 1.5 0 0 1 3 0v11a1.5 1.5 0 0 1-3 0v-.214c-2.162-1.241-4.49-1.843-6.912-2.083l.405 2.712A1 1 0 0 1 5.51 15.1h-.548a1 1 0 0 1-.916-.599l-1.85-3.49a68.14 68.14 0 0 0-.202-.003A2.014 2.014 0 0 1 0 9V7a2.02 2.02 0 0 1 1.992-2.013 74.663 74.663 0 0 0 2.483-.075c3.043-.154 6.148-.849 8.525-2.199V2.5zm1 0v11a.5.5 0 0 0 1 0v-11a.5.5 0 0 0-1 0zm-1 1.35c-2.344 1.205-5.209 1.842-8 2.033v4.233c.18.01.359.022.537.036 2.568.189 5.093.744 7.463 1.993V3.85zm-9 6.215v-4.13a95.09 95.09 0 0 1-1.992.052A1.02 1.02 0 0 0 1 7v2c0 .55.448 1.002 1.006 1.009A60.49 60.49 0 0 1 4 10.065zm-.657.975 1.609 3.037.01.024h.548l-.002-.014-.443-2.966a68.019 68.019 0 0 0-1.722-.082z" />
-                    </svg>
-                    &nbsp; &nbsp; <a href="https://www.fontspace.com/category/cute"><img
+                    </svg><a href="https://www.fontspace.com/category/cute"><img
                             src="https://see.fontimg.com/api/renderfont4/d9ymZ/eyJyIjoiZnMiLCJoIjo4MiwidyI6MTAwMCwiZnMiOjgyLCJmZ2MiOiIjMTYxMjEyIiwiYmdjIjoiIzM0MzEzMSIsInQiOjF9/Sm9pbiBPdXIgVHJhdmVscw/bbsugarcoat-demo.png"
-                            alt="Cute fonts" style="width: 60%;"></a>
-                
-                    <br><br>
-                    <p>"More than just a blog, <b>Migo Travels</b> is a community of beach aficionados brought together
+                            alt="Cute fonts" style="width: 140px;"></a><br><br>"More than just a blog, <b>Migo Travels</b> is a community of beach aficionados brought together
                         by
                         their love for the sun-soaked Philippine coast. Join us to share your own beach adventures,
                         discover
                         new destinations, and connect with fellow beach lovers who understand the irresistible allure of
                         the
-                        ocean's embrace."</p>
-                    <p>The Philippines boasts a coastline that's nothing short of paradise, with a beach for every kind
+                        ocean's embrace."<br><br>
+                    The Philippines boasts a coastline that's nothing short of paradise, with a beach for every kind
                         of
                         traveler. Whether you're a beachcomber, a surfer, a snorkeler, or simply someone who revels in
                         the
                         feeling of sand between your toes, Migo Travels is here to be your companion on this sun-soaked
-                        journey.</p>
+                        journey.<br><br>
 
-                    <p>Thank you for choosing Migo Travels as your beach getaway guide.</p>
+                    Thank you for choosing Migo Travels as your beach getaway guide.<br><br>
 
-                    <p>Sandy toes and salty kisses,</p>
-                    <p><b>Migo Travels Team</b></p>
+                    Sandy toes and salty kisses,<br><br>
+                    <b>Migo Travels Team</b>
                 </div>
             </div>
         </div>
-
+    </div>
     <!-- about us footer -->
 
-    <div class="footer">
-        <table class="table_footer">
-            <tr>
-                <td class="td_footer">
-                    <img src="images/migotravels.png" class="logo">
-                </td>
-                <td class="td_footer">
-                    <ul class="ul_footer">
-                        <li class="socmed"><a href="index.html">Home</a></li>
-                        <li class="socmed"><a href="about.html">About</a></li>
-                        <li class="socmed"><a href="contact.html">Contact</a></li>
-                    </ul>
-                </td>
-                <td class="td_footer">
-                    <ul class="ul_footer">
-                        <li class="socmed"><a href="https://www.facebook.com">Facebook</a></li>
-                        <li class="socmed"><a href="https://www.instagram.com">Instagram</a></li>
-                        <li class="socmed"><a href="https://www.tweeter.com">Tweeter</a></li>
-                    </ul>
-                </td>
-                <td class="td_footer">
-                    <ul class="ul_footer">
-                        <li>Reyes Compound</li>
-                        <li>#051 Sto. Tomas, Santa Maria, Bulacan</li>
-                        <li>0969-103-5468</li>
-                    </ul>
-                </td>
-            </tr>
+    <div class="container-fluid pt-3" style="background-color: #6b5b95; float: left;">
+        <div class="row">
+            <div class="col-sm text-center">
+                <img src="images/migotravels.png" style="width: 150px; height: 60px; ;">
+            </div>
+            <div class="col-sm">
+                <ul>
+                    <li class="list_style"><a href="index.html" class="footer_link">Home</a></li>
+                    <li class="list_style"><a href="about.html" class="footer_link">About</a></li>
+                    <li class="list_style"><a href="contact.html" class="footer_link">Contact Us</a></li>
+                </ul>
+            </div>
 
-        </table>
-    </div>
-
-    <div class="container-fluid fst-italic text-center" style="background-color: rgb(31, 25, 25); color: antiquewhite; position: relative; bottom: 0px;">
-        <p>Copyright &copy 2023 - Miguel Carlos Blancaflor</p>
+            <div class="col-sm ms-4">
+                Sto. Tomas, Santa Maria, Bulacan <br>
+                0910-000-0000 <br>
+                inquire@migotravels.ph
+            </div>
+        </div>
     </div>
     
 
